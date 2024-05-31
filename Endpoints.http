@@ -1,0 +1,12 @@
+###
+#
+# View logs
+#
+GET http://localhost:4004/language/Logs  
+
+###
+#
+# Logging activity in local db
+#
+GET http://localhost:4004/language/usingExternalApi(language='spanish')
+
