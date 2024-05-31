@@ -1,1 +1,19 @@
-{}
+{
+  "odata": {
+    "version": "v4"
+  },
+  "requires": {
+    "uaa": {
+      "kind": "xsuaa"
+    },
+    "messaging": {
+      "kind": "local-messaging"
+    }
+  },
+  "db": {
+    "[development]": {
+      "kind": "sqlite",
+      "model": "*"
+    }
+  }
+}
