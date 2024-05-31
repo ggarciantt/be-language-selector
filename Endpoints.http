@@ -1,12 +1,18 @@
 ###
 #
-# View logs
+# View logs 
 #
-GET http://localhost:4004/language/Logs  
+GET http://localhost:4004/language/Logs
+
+###
+#
+# Trying to Logging activity in local db without auth
+#
+GET http://localhost:4004/language/usingExternalApi(language='spanish')
 
 ###
 #
 # Logging activity in local db
 #
 GET http://localhost:4004/language/usingExternalApi(language='spanish')
-
+Authorization: Basic gui:abc123
