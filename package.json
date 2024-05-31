@@ -24,5 +24,13 @@
         }
       }
     }
+  },
+  "auth": {
+    "kind": "mocked",
+    "users": {
+      "gui": {
+        "password": "abc123"
+      }
+    }
   }
 }
