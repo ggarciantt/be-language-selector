@@ -34,10 +34,7 @@ class LogsService extends cds.ApplicationService {
       return countries;
     } catch (error) {
       await tx.rollback();
-      req.error(
-        500,
-        "Failed to log the activity or fetch data from external API"
-      );
+      req.error('FETCH_ERROR');
     }
     await tx.commit();
   }
