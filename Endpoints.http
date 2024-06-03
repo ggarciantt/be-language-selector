@@ -12,7 +12,21 @@ GET http://localhost:4004/language/usingExternalApi(language='spanish')
 
 ###
 #
-# Logging activity in local db
+# Logging activity in local db, user 'gui'
 #
 GET http://localhost:4004/language/usingExternalApi(language='spanish')
 Authorization: Basic gui:abc123
+
+###
+#
+# Logging activity in local db, user 'user'
+#
+GET http://localhost:4004/language/usingExternalApi(language='portuguese')
+Authorization: Basic user:abc123
+
+###
+#
+# Logging activity in local db
+#
+GET http://localhost:4004/language/usingExternalApi(language='english')
+Authorization: Basic marina:abc123

@@ -30,6 +30,12 @@
     "users": {
       "gui": {
         "password": "abc123"
+      },
+      "user": {
+        "password": "abc123"
+      },
+      "marina": {
+        "password": "abc123"
       }
     }
   }
